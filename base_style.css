@@ -1,0 +1,59 @@
+body {
+  background-color: #fff;
+  overflow: scroll;
+  color: #302c22;
+}
+
+#sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+p {
+  font-family: monospace;
+}
+
+a {
+  color: #302c22;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffce66;
+}
+
+#menu {
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  text-transform:uppercase;
+  font-family: fantasy;
+}
+
+#menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
+
+.webtitle {
+  font-family: fantasy;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.blog-map {
+  text-align: center;
+}
+
+.custom-google-map {
+  margin: auto;
+  display: inline-block;
+}

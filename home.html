@@ -3,15 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <meta name="description" content="Ran's Food Blog">
-    <link rel="stylesheet" type="text/css" href="home_style.css">
+    <link rel="stylesheet" type="text/css" href="base_style.css">
     <title>Ran's Food Blog</title>
   </head>
 
   <body>
-    <h1 class="webtitle">Foood Affairs</h1>
-    <p> bringing all the food to your phone </p>
+    <div id="sticky-header">
+      <h1 class="webtitle">Foood Affairs</h1>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+      	<li><a href="#">Blogs</a></li>
+      	<li><a href="#">Contact</a></li>
+      	<li><a href="#">Want to Visit</a></li>
+      </ul>
+    </div>
 
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KAuxZTzqtL_lHsKGZk77sKy1H8pXuMXH" width="640" height="480"></iframe>
+    <p> bringing all the food to your screen </p>
+
+    <div class="blog-map">
+      <div style="height:400px; width:100%; display:inline-block; overflow:hidden;">
+        <iframe class="custom-google-map" style="position:relative; top:-50px; border:none;" src="https://www.google.com/maps/d/u/0/embed?mid=1KAuxZTzqtL_lHsKGZk77sKy1H8pXuMXH" width="600" height="600"></iframe>
+      </div>
+    </div>
 
   </body>
 
